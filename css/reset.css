@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*Наследует шрифты*/
+input,button,textarea{
+	font-family:inherit;
+}
